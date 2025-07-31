@@ -1,0 +1,38 @@
+* {
+
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+:root {
+    --text-color: #222;
+    --subheading-color: #a0a0a0;
+    --placeholder-color: #6c6c6c;
+    --primary-color: #fff;
+    --secondary-color: #e9e9e9;
+    --secdonary-hover-color:#dbelea;
+    }   
+
+body {
+    background: var(--primary-color);
+}
+
+.header{
+    margin:0 auto;
+    max-width: 900px;
+    margin-bottom: 6vh;
+    padding: 1rem ;
+    overflow-x: hidden;
+    width:fit-content;
+    font-size:3rem ;
+    background-clip: text;
+    background:linear-gradient(to right, #4285f4,#d96570);
+    
+
+
+
+
+} 
+
